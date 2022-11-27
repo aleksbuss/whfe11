@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main {
+    width: 30%;
+    background-color: blueviolet;
+    padding: 40px;
+    border-radius: 8px;
+    
+}
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    
+}
+button:not(:last-child) {
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: rgb(139, 139, 139);
+    cursor: pointer;
+}
+
